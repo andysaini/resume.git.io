@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/feedback responsive.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+   
+        <div id="logo">
+            <img src="img/jj.jpg" alt="">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="resume.html" >Resume</a>
+            <a href="My Project.html">My Project</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact us</a>
+            <a href="feedback.html" class="active">Feedback</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+            
+
+</header>
+    <hr>
+    <section id="My_Project">
+        <h1>Welcome to MyFeedbackPage </h1>
+    </section>
+
+    <!-- codeconvey feedback html code is here down below  -->
+
+    <br>
+    <div class="feedback">
+        <p>Dear Strangers,<br>
+            Thank you for getting your precious time in my Resume website. I would like to know feedback. Please spare
+            some moments to give us your valuable feedback as it will help us in improving my resume website.</p> <br>
+
+        <h4>Please rate your service experience for the following parameters</h4>
+
+        <form method="post" action="mailto:anandsahani1997@gmail.com">
+            <label>1. Your overall experience with my website ?</label><br>
+
+            <span class="star-rating">
+                <input type="radio" name="rating1" value="1"><i></i>
+                <input type="radio" name="rating1" value="2"><i></i>
+                <input type="radio" name="rating1" value="3"><i></i>
+                <input type="radio" name="rating1" value="4"><i></i>
+                <input type="radio" name="rating1" value="5"><i></i>
+            </span>
+
+            <div class="clear"></div>
+            <hr class="survey-hr">
+            <label>2. Does website user friendly ? </label><br>
+            <span class="star-rating">
+                <input type="radio" name="rating2" value="1"><i></i>
+                <input type="radio" name="rating2" value="2"><i></i>
+                <input type="radio" name="rating2" value="3"><i></i>
+                <input type="radio" name="rating2" value="4"><i></i>
+                <input type="radio" name="rating2" value="5"><i></i>
+            </span>
+
+
+            <div class="clear"></div>
+            <hr class="survey-hr">
+            <label>3. Show me the parameter by clicking on numbers. </label><br><br />
+            <div style="color:grey">
+                <span style="float:left">
+                    POOR
+                </span>
+                <span style="float:right">
+                    BEST
+                </span>
+
+            </div>
+            <span class="scale-rating">
+                <label value="1">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="2">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="3">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="4">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="5">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="6">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="7">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="8">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="9">
+                    <input type="radio" name="rating">
+                    <label style="width:100%;"></label>
+                </label>
+                <label value="10">
+                    <input type="radio" name="rating" value="10">
+                    <label style="width:100%;"></label>
+                </label>
+            </span>
+
+            <div class="clear"></div>
+            <hr class="survey-hr">
+            <label for="m_3189847521540640526commentText">4. Any Other suggestions:</label><br /><br />
+            <textarea cols="75" name="commentText" rows="5" style="100%"></textarea><br>
+            <br>
+            <div class="clear"></div>
+            <input style="background:#43a7d5;color:#fff;padding:12px;border:0" type="submit" value="Submit your review">
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="center">
+        Copyright &copy; www.MyResumePage.com. All rights reserver by AnDy!
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/contact responsive.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 400px)" href="css/contact responsive1.css">    --> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+    
+        <div id="logo">
+            <img src="img/jj.jpg" alt="">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="resume.html" >Resume</a>
+            <a href="My Project.html">My Project</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html" class="active">Contact us</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+</header>
+    <hr>
+    <section id="My_Project">
+        <h1>Welcome to MyContactWithMePage </h1>
+    </section>
+<br>
+<br>
+<br>
+<h2><u>Enter your details and click on send via mail</u></h2>
+    <br>
+    <br>
+    <form class="cont" action="mailto:anandsahani1997@gmail.com" method="POST" enctype="text/plain"> 
+                 <div class="form-group">
+                     <label for="name">Name</label>
+                     <input type="text" name="Your name:"  id="name" placeholder="Enter your name">
+                     
+                 </div>
+                 
+                 <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="Your email:" id="email" placeholder="Enter your E-mail">
+    
+                </div>
+             
+                <div class="form-group">
+                    <label for="phone">Phone No.</label>
+                    <input type="phone" name="Your Phone:" id="phone" placeholder="Enter your phone no."><br>
+    
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                   <textarea name="Your message:" id="message" cols="30" rows="10"></textarea>
+    
+                </div>
+                
+                <div class="button">
+                    <label for="button"> Click to send 👉</label>
+                   <button> Send Now</button>
+    
+                </div>
+               
+    </form>
+</body>
+<br>
+<footer>
+    <div class="center">
+        Copyright &copy; www.MyResumePage.com. All rights reserver by AnDy!
+    </div>
+</footer>
+</html>

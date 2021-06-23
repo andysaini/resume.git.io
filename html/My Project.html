@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="css/My Project.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/Myproject Responsive.css">
+    <meta name="viewport"  content="width=device-width initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+    
+        <div id="logo">
+            <img src="img/jj.jpg" alt="">
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="resume.html" >Resume</a>
+            <a href="My Project.html" class="active">My Project</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact us</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+            
+     </header>
+    <hr>
+    <section id="My_Project">
+        <h1> Welcome to MyProjectPage </h1>
+    </section>
+    <br>
+    <table class="firstT" border="15">
+        <tr>
+            <td><B> Project Title: &emsp13;</b> </td>
+
+            <td><B> Multi-Mode and Multi-Functional IoT Educational Kit - IOT</b></td><br>
+        </TR>
+    </table>
+    <br>
+    <h3><u>ABSTRACT:</u></h3>
+    <br>
+    <p>Technology is a never-ending process. To be able to design a product using the current technology that will be
+        beneficial to the lives of others is a huge contribution to the community. This project presents the design and
+        implementation of a low cost but flexible and secure cell phone based home automation system. The design is
+        based on a standalone Arduino BT board and the home appliances are connected to the input/ output ports of this
+        board via relays. The communication between the cell phone and the Arduino BT board is wireless. This project is
+        designed to be low cost and scalable allowing variety of devices to be controlled with minimum changes to its
+        core. Password protection is being used to only allow authorized users from accessing the appliances at home
+        remotely.
+
+        Keywords: Appliances Automation, Arduino, IOT.</p>
+    <br>
+    <br>
+    <h3>1. Introduction:</h3>
+    <p class="introp">• In present world of technology, all the things are going computerized and automated from
+        machinery
+        to simple paperwork every process and system has to do something with computer, i.e. they are in some or the
+        other way connected to computers.
+        CSEIT2062120 1 Accepted . 15 April 2020 | Published . 24 April 2020 | March-April-2020 [ 6 (2) : 392-397]
+        Keeping that in our mind we are designing our project 'Appliances Automation' which will be a small working
+        model of an automated and mobile controlled system. <br>
+        • It will demonstrate how we can control devices and control all the operations through mobile remotely. It will
+        become more managed and automated due to comfort it supply, especially when installed in a private lab. The
+        device automation is a means that give users access to control appliances. Many well-accepted lab automation
+        systems are based on wired network.
+        Wireless systems can be of great importance for automation systems. With the wireless practical application such
+        technology as Wi-Fi, networking in recent past years, Wi-Fi systems are used everywhere.
+    </p>
+    <br>
+    <h3><u>4 Modules </u></h3>
+    <br>
+    <h3>1. GSM (Global System for Mobile)</h3>
+    <br>
+    <p class="gsm"> • In this module user initiates the call with their respective GSM cell phones. <br>
+        • Arduino receives the call according to the range of the calling. <br>
+        • The connection is been established with the proper range. <br>
+        • Controlling is been done via the DTMF (Dual Tone Multi Frequency) codes. According to our demand, we can set
+        the controlling of the different appliances through it. In our module, we have been set the ON to one keyword
+        and OFF to two keyword we can change it according to our need. <br>
+    </p>
+    <section id="gsm">
+
+        <img src="img/GSM.jpg" alt="">
+    </section>
+    <h3>2. GPRS (General Packrt Radio Service)</h3> <br>
+    <p class="gprs"> • This module user goes to the respective website and click on the server connectivity as soon as
+        the connection is been established the end user clicks the ON and OFF button according to the command.
+        Then the event occurs to the respective commands as the end user gives into it.
+
+        <br> • As soon as the event occurs the data is immediately uploaded to the server and the data in the server is
+        been
+        enhanced.
+    </p>
+    <section id="gprs">
+
+        <img src="img/gprs.jpg" alt="">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>3. Temperature and Humidity Sensor</h3><br>
+    <p class="temp">• The DHTI 1 temperature range is from Ot050 degrees Celsius with +-2 degrees accuracy. While the
+        DHTI 1 humidity
+        ranges from 20t080percentage with 50 0 accuracy. DHTII is a low-cost digital sensor for sensing temperature and
+        humidity. This sensor can be easily interfaced with any micro-controller such as Arduino, Raspberry Pi etc... to
+        measure humidity and temperature instantaneously.</p>
+    <br>
+    <br>
+    <h3>4. Curtain Control System</h3><br>
+    <p class="curton"> • We can close and open our curtains directly from the mobile. <br>
+        • We can choose for one or two curtains and even set how far they should be opened. <br>
+        • We can also set timers to open and close them at a fixed time. If you want to, you can always continue to open
+        and close them manually. <br>
+    </p> <br>
+    <br>
+
+    <section id="curton">
+
+        <img src="img/curton.png" alt="">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2 id="p"><u>Poject Circuit Diagram</u></h2><br>
+
+    <section id="circuit">
+
+        <img src="img/circuit.png" alt="">
+    </section>
+    <br>
+    <br><br><br><br>
+    <p id="fig">fig. Models Circuit Diagram using Potentiometer</p>
+    <br>
+    <br><br>
+    <h2 id="p"><u>Final Demo Modules</u></h2><br>
+    <br>
+    <section id="demo">
+
+        <img src="img/finaldemo.png" alt="">
+    </section>
+<br><br><br><br><br>
+    <h2 id="p"><u>Conclusion</u></h2><br>
+    <br>
+    <p>• In this work, the proposed system facilitates the users to control the appliances such as lights, fans, projector
+        and air conditioner just by giving commands through either a smart phone or Node-RED Dashboard. Thus, all
+        devices can be controlled universally and remotely and the status of the devices can be visualized. This feature
+        will help the user to analyze the status of these devices anytime and anywhere. It reduces human intervention in
+        monitoring the devices. This system can be further extended for automatic ON and OFF appliances depending upon
+        the number of users in the Lab using Omron thermal sensors. This system can be further implemented in hospitals
+        for physically challenged people for controlling the appliances.</p>
+</body>
+<br>
+<br>
+<br>
+<br><br><br><br><br>
+<footer>
+    <div class="center">
+        Copyright &copy; www.MyResumePage.com. All rights reserver by AnDy!
+    </div>
+</footer>
+
+</html>

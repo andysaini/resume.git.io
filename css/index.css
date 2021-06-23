@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: #66BFBF;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ /* #navbar{
+    display: flex;
+    position: relative;
+  
+} */
+
+#logo
+{
+    margin: 32px 49px;
+
+}
+
+#logo img{
+    border-radius: 120px;
+    height: 70px;
+    width: 70px;
+    margin: -7PX -4PX;
+    
+    
+    
+}
+
+/* #navbar ul
+{
+    display: flex;
+    margin: 35px 31px 9px 95px;
+    
+}
+
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+
+#navbar ul li a
+{
+     display: inline-block;
+    padding: 11px 34px;
+    text-decoration: none;
+    color: white;
+    
+    background-color: gray;
+    box-shadow: 4px 4px 4px rgb(24, 24, 24);
+    opacity: 0.9   ;
+} 
+
+#navbar ul li a:hover
+{
+        color: rgb(255, 255, 255);
+        background-color: rgb(133, 31, 31);
+}  */
+
+
+/* new navbar responsive */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+.pdf
+{
+    margin-left: 640px;
+     position: relative;
+    justify-content: center;
+    text-align: center;
+}
+img:hover
+{
+    
+    border-radius: 20px;
+   
+}
+#home h1
+{
+    margin-top: -400px;
+    color: rgb(116, 5, 5) ;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 30px;
+}
+
+
+#border
+{
+   margin-left: 48%;
+   border-style: none;
+   border-top-style: dotted;
+   border-color: rgb(255, 255, 255);
+   border-width: 5px;
+   width: 5%;
+   
+    
+}
+
+h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstT{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.secondT
+{
+    
+    margin-left: 255px;
+    justify-content: right;
+    text-align: center;
+    
+}
+
+.thirdT
+{
+    
+    margin-left: 380px;
+    justify-content: right;
+    text-align: center;
+    
+}
+
+.activity
+{
+    margin-left: 600px;
+    justify-content: right;
+    text-align: center;
+}
+
+.lang
+{
+    margin-left: 570px;
+    justify-content: right;
+    text-align: center;
+}
+
+footer
+{
+    justify-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 15px;
+}  
+
+.checkbtn
+{
+    margin: 18px 6px;
+    float: right;
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-left: 30px;
+    cursor: pointer;
+    display: none;
+}
+.check{
+    display: none;
+}
+
+a:hover
+{
+    background: none;
+    color: #0082e6;
+}
+
+
